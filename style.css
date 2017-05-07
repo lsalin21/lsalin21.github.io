@@ -1,5 +1,4 @@
   html,body{
-    height: 1000px;
     width: 100%;  
   }
   body{
@@ -45,7 +44,7 @@
 
     h1{
     font-size: 100px;
-    padding-top: 170px;
+    padding-top: 100px;
     padding-bottom: 30px;
     }
 
