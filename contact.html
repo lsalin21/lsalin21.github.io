@@ -7,6 +7,8 @@
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body class="contactbody">
      <div class="container-fluid" >
@@ -31,6 +33,9 @@
         </div>
       </nav>
       <div class="container">
+        <h1 class="email-contact">Send me an Email for Immediate Contact</h1>
+      </div>
+      <div class="container">
         <form class="form-horizontal">
           <div class="form-group">
             <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
@@ -39,27 +44,41 @@
             </div>
           </div>
           <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+            <label for="inputName3" class="col-sm-2 control-label">Name</label>
             <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              <input type="name" class="form-control" id="inputName3" placeholder="Name">
             </div>
           </div>
           <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Remember me
-                </label>
-              </div>
-            </div>
+            <label for="comment" class="commentlabel">Comment</label>
+            <textarea class="form-control" rows="6" id="comment"></textarea>
           </div>
-          <div class="form-group">
+          <div class="form-group text-left">
             <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default">Sign in</button>
+              <button type="submit" class="btn btn-default">Submit</button>
             </div>
           </div>
         </form>
       </div>
+    </div>
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+          <div class="dropup">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Follow Me
+          <div span class="caret"></span></button>
+            <ul class="nav navbar-nav navbar-left dropdown-menu">
+              <li><a href="https://www.facebook.com/luis.salinas.372019"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/luiz1995_21"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/luis-salinas-65b0a695"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.snapchat.com/add/luizito_21"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a></li>
+              <li><a href="https://luissalinasblog.wordpress.com/blog/"><i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
+              <li><a href="https://open.spotify.com/user/lsalin"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+         </div>
+        </div>
+      </nav>
     </div>
   </body>
 </html>

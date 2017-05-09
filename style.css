@@ -1,17 +1,17 @@
-  html,body{
-    width: 100%;  
+  html{
+    width: 100%;
+    height: 1080px;
   }
+
   body{
     background: #1A2980;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     }
 
-    .container-fluid{
-      padding: 0px;
-    }
+
     .navbar{
       border: none;
       background-color:#26D0CE;
@@ -42,9 +42,9 @@
       padding-bottom: 100px;
     }
 
-    h1{
+    div.col-md-12 h1{
     font-size: 100px;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 30px;
     }
 
@@ -64,12 +64,25 @@
     .fa{
       font-size: 30px;
       padding-left: 35px;
-      color: white;
+      color: black;
     }
 
     a.navbar-brand{
       font-size: 19px;
-      padding-top: 4.5px;
+      padding-top: 4px;
+    }
+
+    .btn btn-default dropdown-toggle{
+      padding: 10px;
+    }
+
+    .dropup{
+      padding-left: 100px;
+      padding-top: 5px;
+    }
+
+    ul.nav.navbar-nav.navbar-left.dropdown-menu{
+      left: 100px;
     }
 /* About Page Css */
     .aboutbody{
@@ -78,14 +91,54 @@
 
 /* Resume Page Css */
     .resumebody{
-      background: white
+      background: white;
     }
 
     div.resume p{
       font-size: 19px;
       font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      padding: 20px;
+      width: 80%;
+      margin: 0 auto;
+      color: white;
     }
+
+    div.resume h1{
+      font-size: 40px;
+      color: white;
+      margin: 0 auto;
+      width: 80%;
+      padding-top: 50px;
+    }
+
+
+
 /* Contact Page Css*/
     .contactbody{
       background: white;
+    }
+
+    form.form-horizontal{
+      width: 50%;
+      margin: 0px auto;
+    }
+
+    textarea.form-control{
+      width: 70%;
+      margin: 0 auto;
+      margin-left: 102px;
+      margin-top: -23px;
+    }
+
+    label.commentlabel{
+      width: 20%;
+      padding-left: 3px;
+    }
+    h1.email-contact{
+      font-size: 25px;
+      margin: 0px auto;
+      width: 500px;
+      text-align: center;
+      padding: 15px;
+      padding-bottom: 25px;
     }
